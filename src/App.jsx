@@ -1,6 +1,6 @@
 import React, { useState } from "react";
-import SearchBar from "./components/SearchBar";
-import UserCard from "./components/UserCard";
+import SearchBar from "./components/searchBar";
+import UserCard from "./components/userCard";
 import { fetchGitHubUsers } from "./services/githubService";
 
 const App = () => {
